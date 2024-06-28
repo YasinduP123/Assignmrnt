@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+pre{
+    font-size : 200%;
+}
+p{
+    text-align: center;
+}
+body{
+   margin:0;
+   height:100vh;
+   background-image: url('background.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   background-repeat: repeat;
+   color: white;
+}
+table{
+    border: 1px solid black;
+    border-width: 5px;
+    margin: 100;
+    width:110%; 
+    text-align:center;
+    align-items: center;
+}
+td,th{
+    border: 1px solid wheat;
+    padding: 12px;
+}
+th{
+    background-color: rgb(44, 5, 84);
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:nth-child(odd){
+    background-color: rgb(215, 114, 114);
+}
